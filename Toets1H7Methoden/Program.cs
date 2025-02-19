@@ -40,8 +40,37 @@
                 Console.WriteLine("Foutieve pincode. Toegang geweigerd.");
             }
 
+            
+        }
+        public static int GetPincode(int aantalKarakters)
+        {
+
+            Random = new Random(1, 9);
+            int random = Random(1, 9);
+            int code = aantalKarakters * random;
+            return code;
 
         }
+
+        public static bool Aanmelden(int pincode, int pincodeTest)
+        {
+
+            int code = 0;
+            
+            if (pincode = pincodeTest) 
+            {
+                pincode = code; 
+
+            }
+            else
+            {
+                
+
+            }
+
+            return code;
+        }
+
 
     }
 }
